@@ -32,6 +32,7 @@ export default function TabOneScreen() {
             <AlbumCategory title={item.title} albums={item.albums} />
           )}
           keyExtractor={(item) => item.id}
+          showsVerticalScrollIndicator={false}
         />
       </View>
     </LinearGradient>

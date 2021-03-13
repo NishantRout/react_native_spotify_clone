@@ -22,7 +22,7 @@ const AlbumScreen = () => {
       start={{ x: 0.0, y: 0.0 }}
       end={{ x: 0.5, y: 1.8 }}
     >
-      <View>
+      <View style={styles.container}>
         <View style={styles.header}>
           <TouchableOpacity
             activeOpacity={0.5}
@@ -52,6 +52,8 @@ const AlbumScreen = () => {
           renderItem={({ item }) => <SongItemList song={item} />}
           keyExtractor={(item) => item.id}
           ListHeaderComponent={() => <AlbumHeader album={albumDetails} />}
+          ListFooterComponent={<View style={{ height: 100 }} />}
+          showsVerticalScrollIndicator={false}
         />
       </View>
     </LinearGradient>
@@ -59,11 +61,14 @@ const AlbumScreen = () => {
 };
 
 const styles = StyleSheet.create({
+  container: {
+    paddingTop: 60,
+    height: "100%",
+  },
   header: {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
-    marginTop: 60,
     marginLeft: 5,
   },
   icon: {

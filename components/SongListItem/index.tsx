@@ -3,8 +3,8 @@ import { View, Text, Image, TouchableOpacity } from "react-native";
 import { Song } from "../../types";
 import styles from "./styles";
 // import { useFonts } from "expo-font";
-import * as Font from "expo-font";
-import AppLoading from "expo-app-loading";
+// import * as Font from "expo-font";
+// import AppLoading from "expo-app-loading";
 import { SimpleLineIcons } from "@expo/vector-icons";
 
 export type SongListItemProps = {
@@ -19,7 +19,7 @@ export type SongListItemProps = {
 
 const SongItemList = (props: SongListItemProps) => {
   const { song } = props;
-  const [fontsLoaded, setFontsLoaded] = useState(false);
+  //const [fontsLoaded, setFontsLoaded] = useState(false);
 
   //if (fontsLoaded) {
   return (

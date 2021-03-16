@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-spotifyclone-dev-21234-authRole",
+      "UnauthRoleArn": "arn:aws:iam::321068993429:role/amplify-spotifyclone-dev-21234-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::321068993429:role/amplify-spotifyclone-dev-21234-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-spotifyclone-dev-21234-deployment",
+      "UnauthRoleName": "amplify-spotifyclone-dev-21234-unauthRole",
+      "StackName": "amplify-spotifyclone-dev-21234",
+      "StackId": "arn:aws:cloudformation:us-east-2:321068993429:stack/amplify-spotifyclone-dev-21234/fe32c770-85ce-11eb-89ba-0a95f01e818a",
+      "AmplifyAppId": "des1qjv3psevi"
+    }
+  }
+}

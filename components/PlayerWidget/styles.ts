@@ -8,9 +8,17 @@ const styles = StyleSheet.create({
     width: "100%",
     borderBottomWidth: 2,
     borderColor: "#000",
-    flexDirection: "row",
-    alignItems: "center",
+    flexDirection: "column",
+    //alignItems: "center",
     justifyContent: "space-between",
+  },
+  row: {
+    flexDirection: "row",
+  },
+  progress: {
+    height: 3,
+    //width: "100%",
+    backgroundColor: "#bcbcbc",
   },
   icon: {
     marginRight: 10,
